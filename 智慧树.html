@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang='zh'><head><style type='text/css'>html,body{padding:4px 8px 4px 8px;font-family:'sans-serif-regular';}h1,h2,h3,h4,h5,h6{font-family:'sans-serif-condensed';}a{color: #388E3C;text-decoration:underline;}img{height:auto;max-width:100%;max-height: 90vh;margin:auto;}html,body{color:#303030;}blockquote{color:#73747d;}</style><style>video, img { max-width: 100%; } pre { max-width: 100%; overflow: auto; } table, th, td {  border: 1px solid black; border-collapse: collapse; border-spacing: 0; padding: 6px; } .floatl {float: left;} .clear {clear:both;} button:hover,button:active {filter: invert(1);} button { display: inline-block; box-sizing: border-box; border: none; border-radius: 4px; padding: 0 16px; min-width: 64px; height: 36px; font-family: 'Roboto'; font-size: 14px; font-weight: 500;  line-height: 36px; overflow: hidden; outline: none; vertical-align: middle; text-align: center; text-overflow: ellipsis; text-transform: uppercase; box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12); margin: 4px 4px 8px 0px;}    .emojibtn,.fa {font-size:250%; background: transparent; padding: 0px; min-width:0px;}    .sticky {position: sticky; display: inline-block; border: 0px solid black;} body{margin:0;padding:1.25vh 2.5vw} .header_no_underline { text-decoration: none; color: black; } h1 < a.header_no_underline { border-bottom: 2px solid #eaecef; }  h1,h2 { border-bottom: 2px solid #696969; } blockquote{padding:0px 14px;border-left:3.5px solid #dddddd;margin:4px 0}.video-container > p { margin: 0; }.task-list-item { list-style-type:none; text-indent: -1.4em; } li.task-list-item > pre, li.task-list-item > ul > li { text-indent: 0pt; }p > a { word-break:break-all; }.markor-table-of-contents { border: 1px solid black; border-radius: 2px; } .markor-table-of-contents > h1 { padding-left: 14px; margin-bottom: -8px; border-bottom: 1px solid black; } .markor-table-of-contents-list li { margin-left: -12px; } .markor-table-of-contents-list a { text-decoration: none; }</style><link rel='stylesheet' href='file:///android_asset/prism/themes/prism.min.css'/><link rel='stylesheet' href='file:///android_asset/prism/style.css'/><script type='text/javascript' src='file:///android_asset/prism/prism.js'></script><script type='text/javascript' src='file:///android_asset/prism/plugins/autoloader/prism-autoloader.min.js'></script><script type='text/javascript' src='file:///android_asset/prism/main.js'></script><link rel='stylesheet' href='file:///android_asset/prism/plugins/line-numbers/style.css'/><script type='text/javascript' src='file:///android_asset/prism/plugins/line-numbers/prism-line-numbers.min.js'></script><script type='text/javascript' src='file:///android_asset/prism/plugins/line-numbers/main.js'></script>
+<style> 
+html,body { 
+ /*font-family: sans-serif-condensed;*/ 
+ /*font-size: 80%;*/ 
+} 
+</style> 
+ 
+ 
+<script type="text/javascript"> 
+function onPageLoaded(){ 
+ 
+/*if ('format-markdown fileext-md' == 'MarkdownTextConverter') { 
+ window.scrollTo(0,document.body.scrollHeight); 
+}*/ 
+ 
+} 
+</script><script> function onPageLoaded_markor_private() {
+wrapCodeBlockWords();enableLineNumbers();adjustLineNumbers();
+onPageLoaded(); }
+</script></head>
+<body class='format-markdown fileext-md' onload='onPageLoaded_markor_private();'>
+
+<!-- USER DOCUMENT CONTENT -->
+
+
+<p>如何使用Autovisor为智慧树赋能</p>
+<h1 id="如何使用autovisor为智慧树赋能"><a href="#如何使用autovisor为智慧树赋能" class="header_no_underline">如何使用Autovisor为智慧树赋能</a></h1>
+<h2 id="了解什么是autovisorwhat"><a href="#了解什么是autovisorwhat" class="header_no_underline">了解什么是Autovisor（What）</a></h2>
+<pre><code>  “Autovisor”是一款由 **CXRunfree**借助python语言编写的智慧树脚本，旨在帮助同学们从繁重的刷课任务重解放出来，真正把时间用在刀刃上，创造出有效的价值。
+</code></pre>
+<h2 id="了解autovisor的优势why"><a href="#了解autovisor的优势why" class="header_no_underline">了解Autovisor的优势（Why）</a></h2>
+<pre><code>  - 使用本地设备，通过在PC上运行的方式，避免了IP审查的同时最大限度利用闲置的设备。
+  - 通过模仿人工点击，避免了被反作弊侦测
+  - 带有自动跳过弹出题目的功能，节省时间
+  - 开源代码，更加安全
+</code></pre>
+<blockquote>
+<p>一、程序介绍:项目简介：(引用作者自己写的简介)
+这是一个可无人监督的自动化程序，基于微软的Playwright框架，由Python和JavaScript编写而成；相对于常见的油猴脚本，本程序可有效防止被网页检测。
+核心原理是使浏览器模拟用户的点击操作。
+程序功能:可以快速登录自动播放和切换下一集
+跳过弹窗和弹出的题目自动静音、调整1.8倍速和流畅画质
+检测视频是否暂停并续播检测当前学习进度并后台实时更新
+根据当前时间自动设置背景颜色(白昼/暗夜)加入了定时模拟鼠标滑动功能 (减少被检测到的概率)
+完成章节时将提示已刷课时长</p>
+</blockquote>
+<h2 id="使用须知how"><a href="#使用须知how" class="header_no_underline">使用须知（How）</a></h2>
+<pre><code>  本篇讲授如何使用Autovisor：
+  1，配置要求
+      - 确保系统版本在windows10及以上
+      - 确保系统内置Edge（首选），Chrome或火狐
+ 2，开始配置
+     - 在Github上下载Release（发行版），下载地址[点击](https://github.com/CXRunfree/Autovisor/releases/download/2024%2F5%2F14/Autovisor-rebuild-3.12.4.zip)
+     - 解压下载得到的压缩包，并在目录下找到“configs.ini”文件
+     - 根据下述说明填写配置文件（填写有错误将直接导致程序运行失败，切记仔细填写）
+</code></pre>
+<p><img src="https://img2.imgtp.com/2024/05/16/SduXMlKA.png" alt="" /></p>
+
+
+<!-- USER DOCUMENT CONTENT END -->
+
+</body></html>
